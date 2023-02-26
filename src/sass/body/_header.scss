@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+  }
+  &__li {
+    margin-right: 40px;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #1b1b1d;
+    &:hover {
+      color: #1b1b1d;
+    }
+  }
+  &__bag {
+    width: 56px;
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+    border: none;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+}

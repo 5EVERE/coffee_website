@@ -1,0 +1,31 @@
+.app {
+  position: relative;
+  padding-bottom: 220px;
+  &__img-cup {
+    position: absolute;
+    left: 0;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    margin-bottom: 60px;
+  }
+  &__img {
+    position: relative;
+  }
+  &__cup {
+    position: relative;
+    z-index: 1;
+  }
+  &__elipse {
+    position: absolute;
+    left: 120px;
+    top: 20%;
+  }
+}

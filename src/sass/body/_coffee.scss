@@ -1,0 +1,63 @@
+.coffee {
+  position: relative;
+  padding-bottom: 200px;
+  &__title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  &__subtitle {
+    text-align: center;
+    margin-bottom: 180px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    position: relative;
+    padding: 40px 30px 30px 30px;
+    width: 360px;
+    height: 500px;
+    background: linear-gradient(
+      142.42deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    filter: drop-shadow(0px 20px 60px rgba(163, 168, 179, 0.15));
+    border-radius: 24px;
+    &_img {
+      position: absolute;
+      top: -80px;
+      left: -10px;
+    }
+    &_descr {
+      padding-left: 170px;
+    }
+    &_title {
+      padding-left: 170px;
+      margin-bottom: 90px;
+    }
+    &_subtitle {
+      text-align: center;
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 40px;
+    }
+    &_info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &_price {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 28px;
+      color: #1b1b1d;
+    }
+    &_button {
+      width: 170px;
+      height: 60px;
+    }
+  }
+}
